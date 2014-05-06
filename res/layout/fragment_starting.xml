@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/black_wooden_background"
+    tools:context="com.google.cloud.backend.StartingActivity$PlaceholderFragment" >
+
+	<ImageView 
+	    android:id="@+id/title_chat"
+		android:layout_width="400dp"
+		android:layout_height="100dp"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginTop="15dp"
+		android:src="@drawable/title_chat"
+	    />
+	
+	<android.support.v4.view.ViewPager
+	    android:id="@+id/view_pager"
+	    android:layout_width="match_parent"
+	    android:layout_height="420dp"
+	    android:layout_below="@id/title_chat"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginBottom="20dp"
+	    >
+	    
+	</android.support.v4.view.ViewPager>
+
+</RelativeLayout>

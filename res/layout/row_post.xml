@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:padding="6dip">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="45dp"
+    	android:layout_height="45dp" />
+       
+        <TextView
+            android:id="@+id/signature"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_toRightOf="@+id/imageView1"
+            android:textColor="#ffffff"
+            android:textAppearance="@style/SignatureText" />
+        
+         <TextView
+            android:id="@+id/messageContent"
+            android:layout_alignBottom="@+id/messageContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/signature"
+            android:layout_alignRight="@+id/signature"
+            android:layout_toRightOf="@+id/imageView1"
+            android:layout_below="@+id/signature"
+            android:textColor="#ffffff"
+            android:textAppearance="@style/PostText" />
+
+</RelativeLayout>

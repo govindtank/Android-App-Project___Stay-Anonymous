@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_mask"
+    >
+
+    
+    <ImageButton 
+        android:id="@+id/btn_enter_chat_vot"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginRight="25dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/img_chat_vote"
+        />
+    <ImageView 
+        android:id="@+id/img_seperate"
+        android:layout_width="5dp"
+        android:layout_height="300dp"
+        android:layout_marginRight="25dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/img_seperation"
+        />
+      <ImageButton 
+        android:id="@+id/btn_enter_partner_finding"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/img_partner_finding"
+        />
+    
+
+
+</RelativeLayout>

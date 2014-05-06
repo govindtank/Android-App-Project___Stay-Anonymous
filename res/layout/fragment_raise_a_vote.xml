@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_mask"
+    >
+    <ImageView 
+        android:id="@+id/text_vote_title"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/text_vote"
+        />
+
+    
+    <EditText
+        android:id="@+id/textfield_vote_title"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/text_vote_title"
+        android:textColorHint="#aaaaff"
+        android:textColor="#ffffff"
+        android:hint="Vote's title?"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/textfield"
+        />
+    
+     
+    <EditText
+        android:id="@+id/textfield_vote_description"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/textfield_vote_title"
+        android:textColorHint="#aaaaff"
+        android:textColor="#ffffff"
+        android:hint="Any detail?"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/textfield"
+        />
+    
+    
+    
+    <ImageButton 
+        android:id="@+id/button_raise_vote"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/textfield_vote_description"
+        android:layout_marginTop="30dp"
+     	android:layout_alignParentLeft="true"
+     	android:layout_marginLeft="50dp"
+     	android:background="@drawable/selector_raise_a_vote"
+        />
+    
+    <NumberPicker 
+        android:id="@+id/number_picker_numpicker"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/textfield_vote_description"
+        android:layout_toRightOf="@id/button_raise_vote"
+        android:layout_alignParentRight="true"
+     	android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        />
+    
+
+</RelativeLayout>

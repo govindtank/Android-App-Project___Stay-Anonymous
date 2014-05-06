@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/namelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/nametextView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:text=" Name "
+            android:textColor="#ffffff"
+            android:textColorHint="#aaaaff"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:hint="ex.Birthday party"
+            android:textColor="#ffffff"
+            android:textColorHint="#aaaaff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/detailslayout"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/detailstextView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:text=" Details "
+            android:textColor="#ffffff"
+            android:textColorHint="#aaaaff"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/detailsEditText"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="right"
+            android:hint="Add More Info"
+            android:inputType="textMultiLine"
+            android:textColor="#ffffff"
+            android:textColorHint="#aaaaff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/placelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/placetextView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text=" Where"
+            android:textColor="#ffffff"
+            android:textColorHint="#aaaaff"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/placeEditText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:hint="Add a place?"
+            android:textColor="#ffffff"
+            android:textColorHint="#aaaaff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/datelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/datetextView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:text=" When"
+            android:textColor="#ffffff"
+            android:textColorHint="#aaaaff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/datePickrer"
+            android:layout_width="106dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="Date"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/timePicker"
+            android:layout_width="89dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|center"
+            android:text="Time"
+            android:textColor="#ffffff"
+            android:textColorHint="#aaaaff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Create"
+        android:textColor="#ffffff"
+        android:textColorHint="#aaaaff"
+        android:textSize="20sp" />
+
+</LinearLayout>
