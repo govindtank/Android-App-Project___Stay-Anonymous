@@ -1,9 +1,36 @@
-solutions-mobile-backend-starter-android-client
-=====================================
+Stay Anonymous
+==========================================
 
-This project is Android native client sample for Mobile Backend Starter.
+## Motication:  
+ The right to express our true opinions 
+- Let people express their true thoughts while remaining ANONYMOUS
+- Let people find their partners base on their shared interests instead of IDENTITY
 
-Disclaimer: This is not an official Google Product.
+## Use Case
+- In class, student wants to give instant feedback to whole class, but she doesn’t want to say it publicly
+- Classmates having critical reviews of others’ work.
+- - Making critical decision in company, however employees don’t want to say their real thoughts in price of exposing their identities. Because they are afraid of being blamed..
+
+
+
+## Functions
+- Anonymous Chat
+- Anonymous Vote
+- Partner Finding
+
+## Implementation(1): Partner Finding
+- Store every “event data” through GCM Service
+- Implement “Continuous” Query 
+- Send “Latest” Query Results to every users
+
+## Implementation(2): Anonymous Chat / Vote
+- Use google app engine & GCM services for both vote and chat
+- Future_Past query of app engine
+- GCM to achieve N : N online chatting
+
+
+
+
 
 ## Products
 - [App Engine][1]
@@ -34,6 +61,19 @@ For detailed setup instructions and documentation visit [Google App Engine devel
    `endpoint-libs/libmobilebackend-v1/mobilebackend/mobilebackend-v1-generated-source/Mobilebackend.java` to your own project.
 
 6. Run the application.
+
+## Challenge
+1. Comparatively new technology : Google mobile backend starter.
+2. Need to perform hundreds of iteration to perform a single task with lack of documentation
+3. To understand the back-end side of codes was also a time taking process.
+5. Fetching records is also a big challenge : Continuous query.
+6. UI/UX design, UI fluency 
+
+## Future Work
+- More stable
+- SMS availability
+- Multimedia : videos or pictures
+
 
 [1]: https://developers.google.com/appengine
 [2]: http://developer.android.com/index.html
