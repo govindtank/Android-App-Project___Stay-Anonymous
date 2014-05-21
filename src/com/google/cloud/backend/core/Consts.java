@@ -22,21 +22,18 @@ public interface Consts {
 
 	/**
 	 * Set Project ID of your Google APIs Console Project.
-	 * PlEASE_ENTER_YOUR_PROJECT_ID
 	 */
-	public static final String PROJECT_ID = "rapid-sphinx-563";
+	public static final String PROJECT_ID = " PLEASE_ENTER_YOUR_PROJECT_ID ";
 
 	/**
 	 * Set Project Number of your Google APIs Console Project.
-	 * PLEASE_ENTER_YOUR_PROJECT_NUMBER
 	 */
-	public static final String PROJECT_NUMBER = "504559540951";
+	public static final String PROJECT_NUMBER = " PLEASE_ENTER_YOUR_PROJECT_NUMBER ";
 
 	/**
 	 * Set your Web Client ID for authentication at backend.
-	 * DON'T_WORRY_ABOUT_THIS
 	 */
-	public static final String WEB_CLIENT_ID = "";
+	public static final String WEB_CLIENT_ID = " NOTHING NEEDED ";
 
 	/**
 	 * Set default user authentication enabled or disabled.
